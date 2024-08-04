@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <meta name="author" content="USAID.D">
+    <style>
+        body {
+            background-color: #e6e6ff;
+            color: darkslategrey;
+            font-size: 22px;
+            margin-left: 20px;
+            font-family: cursive;
+        }
+
+        .forms input,
+        .forms select {
+            border: 3px solid #8a8260;
+            border-radius: 15px;
+            font-size: 22px;
+            padding: 5px;
+        }
+        .submit{
+            font-family: cursive;
+            font-weight: 400;
+            border: #e6e6ff;
+        }
+    </style>
+</head>
+
+<body>
+    <pre><p style="font-size:30px">NOTE:</p><ol><li>Write the information carefully with CAPITAL letters (A-Z).
+<li>Only one registeration will be accepted,if two or more found it will result in declination of all.
+<li>You will receive an EMAIL of your registeration status so kindly put your email with "@XYZ.com/in etc"</pre><br>
+    <hr>
+    <h3>PERSONAL DETAILS:</h3>
+    <pre><form class="forms" action="P3HNSC.html">
+NAME:      <input type="text" placeholder="LAST_FIRST NAME" size=35 required>     <input type="text" placeholder="FATHER'S NAME" required>     <input type="text" placeholder="MOTHER'S NAME" required>
+
+BIRTHDATE: <input type="date" required>                RELIGION: <select required>
+<option>
+<option>HINDU
+<option>MUSLIM
+<option>CHRISTIAN
+<option>SIKH
+<option>BUDDHIST
+<option>JAIN
+<option>OTHER
+</select>
+
+GENDER:    <select required>
+<option>
+<option>MALE
+<option>FEMALE
+<option>OTHER
+</select>
+
+ADDRESS:   <input type="text" size="70" placeholder="Address, City, District, State" required>   PINCODE:  <input type="tel" pattern="[0-9]{6}" maxlength="6" required>
+
+ADHHAR-NO: <input type="tel" pattern="[0-9]{12}" placeholder="XXXX XXXX XXXX" maxlength="12" required>
+
+EMAIL.ID:  <input type="email" size="40" required>
+
+PHONE.NO:  <input type="tel" maxlength="10" required>
+
+<hr><h3>ACEDAMIC DETAILS:</h3>
+<details><summary style="border: 3px solid #e6e6ff;">STANDARD:</summary>
+    <input type="radio" name=s1 required>8th         <input type="radio" name=s1 required>9th         <input type="radio" name=s1 required>10th(SSC)         <input type ="radio" name=s1 required>11th         <input type ="radio" name=s1 required>12th(HSC)
+</details>
+INSTITUTE: <input type="text" size="70" required>     ROLL.NO: <input type="tel" maxlength="3" size="6" required>
+
+PREVIOUS STANDARD MARKS:<input type="tel" placeholder="IN PERCENTAGE '%'" maxlength="5">
+
+PREVIOUS PASSING YEAR:  <input type="tel" maxlength="4">
+
+
+                                                                       <input class="submit" type="submit">
+
+
+</form>
+</html>
